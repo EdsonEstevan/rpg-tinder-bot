@@ -1,0 +1,58 @@
+[
+  {
+    "id": "curto_circuito",
+    "nome": "Curto Circuito",
+    "idade": "19",
+    "bio": "Gênio da eletrônica que vive em curto com a própria vida. Faz piada enquanto conserta coisas… e enquanto quebra outras.",
+    "tags": ["eletrica", "sarcastica", "caotica"],
+    "image": "Curto Circuito.jpg"
+  },
+  {
+    "id": "diana_fox",
+    "nome": "Diana Fox",
+    "idade": "24",
+    "bio": "Investigadora particular com faro para problemas e jeito de quem nunca entra em um lugar pela porta da frente.",
+    "tags": ["astuta", "charmosa", "investigadora"],
+    "image": "Diana Fox.jpg"
+  },
+  {
+    "id": "eleckra",
+    "nome": "Eleckra",
+    "idade": "22",
+    "bio": "Canaliza energia como se fosse emoção pura. Oscila entre explosiva e intensa, às vezes na mesma frase.",
+    "tags": ["energia", "intensa", "impulsiva"],
+    "image": "Eleckra.jpg"
+  },
+  {
+    "id": "flyer",
+    "nome": "Flyer",
+    "idade": "21",
+    "bio": "Mensageira aérea da cidade, sempre no alto, sempre apressada… mas curiosa o bastante para pousar quando alguém chama sua atenção.",
+    "tags": ["voadora", "curiosa", "livre"],
+    "image": "Flyer.jpg"
+  },
+  {
+    "id": "kate_snider",
+    "nome": "Kate Snider",
+    "idade": "23",
+    "bio": "Hacker de atitude fria e humor afiado. Prefere conversar por mensagem, mas quem ganha a confiança dela descobre uma parceira leal.",
+    "tags": ["hacker", "fria", "leal"],
+    "image": "Kate Snider.jpg"
+  },
+  {
+    "id": "katrina",
+    "nome": "Katrina",
+    "idade": "25",
+    "bio": "Presença de furacão: quando entra em um lugar, muda a atmosfera. Metade perigo, metade tentação.",
+    "tags": ["perigosa", "sedutora", "intensa"],
+    "image": "Katrina.jpg"
+  },
+  {
+    "id": "might",
+    "nome": "Might",
+    "idade": "20",
+    "bio": "Heroína em treinamento com força acima da média e autoestima abaixo. Procura alguém que a veja além dos músculos.",
+    "tags": ["forte", "insegura", "heroina"],
+    "image": "Might.jpg"
+  }
+]

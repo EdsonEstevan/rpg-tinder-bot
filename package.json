@@ -1,0 +1,13 @@
+{
+  "name": "rpg-tinder-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy-commands": "node deploy-commands.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.24.2",
+    "dotenv": "^16.6.1"
+  }
+}
