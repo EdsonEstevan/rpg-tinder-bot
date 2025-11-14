@@ -1,4 +1,6 @@
 require('dotenv').config();
+const express = require('express');
+
 
 const {
   Client,
@@ -367,3 +369,19 @@ client.on(Events.InteractionCreate, async interaction => {
 });
 
 client.login(process.env.DISCORD_TOKEN);
+// ===== Servidor HTTP simples para a Render (Web Service) =====
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+  res.send('RPG Tinder bot está rodando. ??');
+});
+
+app.get('/healthz', (req, res) => {
+  res.send('ok');
+});
+
+app.listen(PORT, () => {
+  console.log(`Servidor HTTP ouvindo na porta ${PORT}`);
+});
+
