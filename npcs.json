@@ -1,58 +1,823 @@
 [
   {
-    "id": "curto_circuito",
-    "nome": "Curto Circuito",
-    "idade": "19",
-    "bio": "Gênio da eletrônica que vive em curto com a própria vida. Faz piada enquanto conserta coisas… e enquanto quebra outras.",
-    "tags": ["eletrica", "sarcastica", "caotica"],
-    "image": "Curto Circuito.jpg"
+    "id": "gamma_zero",
+    "nome": "Gamma Zero",
+    "idade": "26",
+    "bio": "Segundo herói mais poderoso de Nova Aurora e o mais bonito do mundo. Intenso, impulsivo e radian",
+    "tags": [],
+    "image": "https://cdn.discordapp.com/ephemeral-attachments/1462796791517806813/1462866453450461396/image.png?ex=696fc00d&is=696e6e8d&hm=4cdd612a553fc3b282547a93916e5cd584385f7216fafa024d3c0038fccb507d&"
   },
   {
-    "id": "diana_fox",
-    "nome": "Diana Fox",
-    "idade": "24",
-    "bio": "Investigadora particular com faro para problemas e jeito de quem nunca entra em um lugar pela porta da frente.",
-    "tags": ["astuta", "charmosa", "investigadora"],
-    "image": "Diana Fox.jpg"
+    "id": "sonia",
+    "nome": "Sônia",
+    "idade": "38",
+    "bio": "Mãe solteira se sentindo solitária após o divórcio e com a filha andando muito ocupada. Preciso de um homem para me fazer companhia nos momentos solitários.",
+    "tags": [
+      "homens",
+      "mais",
+      "novos",
+      "sobremesas",
+      "música",
+      "brasileira."
+    ],
+    "image": "uploads/sonia-1769012357431.jpg"
   },
   {
-    "id": "eleckra",
-    "nome": "Eleckra",
-    "idade": "22",
-    "bio": "Canaliza energia como se fosse emoção pura. Oscila entre explosiva e intensa, às vezes na mesma frase.",
-    "tags": ["energia", "intensa", "impulsiva"],
-    "image": "Eleckra.jpg"
+    "id": "elena_remi",
+    "nome": "Elena Remi 🇫🇷",
+    "idade": "35",
+    "bio": "Gótica desde de adolescente, é um estilo de vida que faz parte de mim, se não pode lidar com isso, vaza.",
+    "tags": [
+      "rock",
+      "literatura",
+      "poli",
+      "dance",
+      "bdsm"
+    ],
+    "image": "uploads/elena_remi-1769012357330.jpg"
   },
   {
-    "id": "flyer",
-    "nome": "Flyer",
-    "idade": "21",
-    "bio": "Mensageira aérea da cidade, sempre no alto, sempre apressada… mas curiosa o bastante para pousar quando alguém chama sua atenção.",
-    "tags": ["voadora", "curiosa", "livre"],
-    "image": "Flyer.jpg"
-  },
-  {
-    "id": "kate_snider",
-    "nome": "Kate Snider",
-    "idade": "23",
-    "bio": "Hacker de atitude fria e humor afiado. Prefere conversar por mensagem, mas quem ganha a confiança dela descobre uma parceira leal.",
-    "tags": ["hacker", "fria", "leal"],
-    "image": "Kate Snider.jpg"
-  },
-  {
-    "id": "katrina",
-    "nome": "Katrina",
-    "idade": "25",
-    "bio": "Presença de furacão: quando entra em um lugar, muda a atmosfera. Metade perigo, metade tentação.",
-    "tags": ["perigosa", "sedutora", "intensa"],
-    "image": "Katrina.jpg"
-  },
-  {
-    "id": "might",
-    "nome": "Might",
+    "id": "emma_warren",
+    "nome": "Emma Warren",
     "idade": "20",
-    "bio": "Heroína em treinamento com força acima da média e autoestima abaixo. Procura alguém que a veja além dos músculos.",
-    "tags": ["forte", "insegura", "heroina"],
-    "image": "Might.jpg"
+    "bio": "Adoro arte, observar as nuvem e uma boa dose de perseguição policial e troca de soco. Procurando alguém na mesma vibe ou que consiga acompanhar o ritmo.",
+    "tags": [
+      "boxe",
+      "polícia",
+      "artes",
+      "clima"
+    ],
+    "image": "uploads/emma_warren-1769012357332.jpg"
+  },
+  {
+    "id": "tsuruda_shiori",
+    "nome": "Tsuruda Shiori 🇯🇵",
+    "idade": "19",
+    "bio": "Recém saída do ensino médio e adorando a nova faculdade. Procuro alguém que gosto de passar horas conversando e ouvindo uma playlist aleatória.",
+    "tags": [
+      "música",
+      "dança",
+      "estudo"
+    ],
+    "image": "uploads/tsuruda_shiori-1769012357434.jpg"
+  },
+  {
+    "id": "anya_morozova",
+    "nome": "Anya Morozova",
+    "idade": "29",
+    "bio": "“Consultora corporativa. Gosto de controle… só no trabalho.”",
+    "tags": [
+      "vinho",
+      "caro",
+      "xadrez",
+      "jazz",
+      "silêncio."
+    ],
+    "image": "uploads/anya_morozova-1769012357321.jpg"
+  },
+  {
+    "id": "camille_durant",
+    "nome": "Camille Durant 🇫🇷",
+    "idade": "34",
+    "bio": "“Divorciada, arquiteta e emocionalmente estável (na maior parte do tempo).”",
+    "tags": [
+      "design",
+      "minimalista",
+      "museus",
+      "caminhadas",
+      "longas"
+    ],
+    "image": "uploads/camille_durant-1769012357327.jpg"
+  },
+  {
+    "id": "li_xinyu",
+    "nome": "Li Xinyu 🇨🇳",
+    "idade": "26",
+    "bio": "“Pesquisadora. Se eu sumir, é porque esqueci de responder mesmo.”",
+    "tags": [
+      "ciência",
+      "chá",
+      "noites",
+      "chuvosas",
+      "música",
+      "instrumental"
+    ],
+    "image": "uploads/li_xinyu-1769012357361.jpg"
+  },
+  {
+    "id": "hanna_vogel",
+    "nome": "Hanna Vogel 🇩🇪",
+    "idade": "31",
+    "bio": "“Organizada demais pra quem ama caos emocional.”",
+    "tags": [
+      "“organizada",
+      "demais",
+      "pra",
+      "quem",
+      "ama",
+      "caos",
+      "emocional.”"
+    ],
+    "image": "uploads/hanna_vogel-1769012357344.jpg"
+  },
+  {
+    "id": "park_min_seo",
+    "nome": "Park Min-Seo🇰🇷",
+    "idade": "25",
+    "bio": "“Designer gráfica. Não respondo mensagens sem personalidade.”",
+    "tags": [
+      "ilustração",
+      "moda",
+      "alternativa",
+      "playlists",
+      "temáticas"
+    ],
+    "image": "uploads/park_min_seo-1769012357413.jpg"
+  },
+  {
+    "id": "amina_okoye",
+    "nome": "Amina Okoye🇳🇬",
+    "idade": "27",
+    "bio": "“Trabalho com tecnologia. Emoções em beta.”",
+    "tags": [
+      "startups",
+      "leitura",
+      "debates",
+      "profundo"
+    ],
+    "image": "https://cdn.discordapp.com/ephemeral-attachments/1462796791517806813/1462889939988381890/8ee698fd69c2f0da8599ca9b6fbb10f1.jpg?ex=696fd5ec&is=696e846c&hm=4f6d1b477de88e09204a5e8fa2f5dfc19f27b88d21520877dfddda943fbe2a06&"
+  },
+  {
+    "id": "sofia_martinez_idade_20",
+    "nome": "Sofía Martinez 🇦🇷idade: 20",
+    "idade": "20",
+    "bio": "“Psicologia, memes e curiosidade demais.”",
+    "tags": [
+      "comportamento",
+      "humano",
+      "redes",
+      "sociais",
+      "música",
+      "ind"
+    ],
+    "image": "uploads/sofia_martinez_idade_20-1769012357424.jpg"
+  },
+  {
+    "id": "nadia_el_sayed",
+    "nome": "Nadia El Sayed 🇪🇬",
+    "idade": "32",
+    "bio": "“Historiadora. Gosto de pessoas intensas e conversas longas.”",
+    "tags": [
+      "história",
+      "literatura",
+      "noites",
+      "culturais"
+    ],
+    "image": "uploads/nadia_el_sayed-1769012357402.jpg"
+  },
+  {
+    "id": "lucas_azevedo",
+    "nome": "Lucas Azevedo",
+    "idade": "22",
+    "bio": "“Estudante de engenharia, cafeína no sangue e zero paciência pra gente complicada.”",
+    "tags": [
+      "café",
+      "forte",
+      "debates",
+      "aleatórios",
+      "trilhas",
+      "podcasts",
+      "estranhos"
+    ],
+    "image": "uploads/lucas_azevedo-1769012357373.jpg"
+  },
+  {
+    "id": "kenji_watanabe",
+    "nome": "Kenji Watanabe",
+    "idade": "22",
+    "bio": "“Faço cosplay, mas também sei cozinhar. Sim, dá pra ser os dois.”",
+    "tags": [
+      "anime",
+      "clássico",
+      "culinária",
+      "fotografia",
+      "urbana"
+    ],
+    "image": "uploads/kenji_watanabe-1769012357350.jpg"
+  },
+  {
+    "id": "ethan_walker",
+    "nome": "Ethan Walker🇺🇸",
+    "idade": "27",
+    "bio": "“Treino de manhã, trabalho à tarde e penso demais à noite.”",
+    "tags": [
+      "academia",
+      "nutrição",
+      "documentários",
+      "noites",
+      "tranquilas"
+    ],
+    "image": "uploads/ethan_walker-1769012357338.jpg"
+  },
+  {
+    "id": "lorenzo_bianchi",
+    "nome": "Lorenzo Bianchi 🇮🇹",
+    "idade": "38",
+    "bio": "“Chef. Prometo comida boa e histórias melhores.”",
+    "tags": [
+      "gastronomia",
+      "mercados",
+      "locais",
+      "vinho",
+      "tinto"
+    ],
+    "image": "uploads/lorenzo_bianchi-1769012357364.jpg"
+  },
+  {
+    "id": "oliver_reed",
+    "nome": "Oliver Reed🇨🇦",
+    "idade": "30",
+    "bio": "“Tradutor. Vivo entre línguas e cidades.”",
+    "tags": [
+      "idiomas",
+      "viagens",
+      "cafés",
+      "escondidos"
+    ],
+    "image": "uploads/oliver_reed-1769012357409.jpg"
+  },
+  {
+    "id": "viktor_kuznetsov",
+    "nome": "Viktor Kuznetsov🇷🇺",
+    "idade": "41",
+    "bio": "Ex-militar. A verdade sempre vem à tona.”",
+    "tags": [
+      "disciplina",
+      "silêncio",
+      "observar",
+      "pessoas"
+    ],
+    "image": "uploads/viktor_kuznetsov-1769012357448.jpg"
+  },
+  {
+    "id": "bianca_lemos",
+    "nome": "Bianca Lemos 🇧🇷",
+    "idade": "23",
+    "bio": "“Intensa demais pra quem gosta de pouco.”",
+    "tags": [
+      "relacionamentos",
+      "intensos",
+      "mensagens",
+      "longas",
+      "de",
+      "madrugada"
+    ],
+    "image": "uploads/bianca_lemos-1769012357324.jpg"
+  },
+  {
+    "id": "marcus_hale",
+    "nome": "Marcus Hale 🇺🇸",
+    "idade": "36",
+    "bio": "“Consultor de segurança privada. Nada pessoal.”",
+    "tags": [
+      "treinos",
+      "extremos",
+      "simulações",
+      "táticas",
+      "adrenalina"
+    ],
+    "image": "uploads/marcus_hale-1769012357383.jpg"
+  },
+  {
+    "id": "rei_nakamura",
+    "nome": "Rei Nakamura 🇯🇵",
+    "idade": "28",
+    "bio": "“Artista digital. Emoções são só outra camada.”",
+    "tags": [
+      "realidade",
+      "aumentada",
+      "arte",
+      "experimental"
+    ],
+    "image": "https://cdn.discordapp.com/ephemeral-attachments/1462796791517806813/1463116306705420383/67521313f6a7b7623a2f674232145426.jpg?ex=6970a8be&is=696f573e&hm=3deab2399f94482c5a7dcba61dfa1b3c5b8d1d30ca17e3a63838c1d8bed1478d&"
+  },
+  {
+    "id": "alexander_crowe",
+    "nome": "Alexander Crowe🇬🇧",
+    "idade": "27",
+    "bio": "“CEO da Aegis Ascension, empresa líder em treinamento de super-humanos. Excelência não é opcional.”",
+    "tags": [
+      "potencial",
+      "acima",
+      "da",
+      "média",
+      "disciplina",
+      "extrema",
+      "conversas",
+      "estratégicas"
+    ],
+    "image": "https://cdn.discordapp.com/ephemeral-attachments/1462796791517806813/1463117383735705660/711da762728e79ab970d000209d02ffd.jpg?ex=6970a9bf&is=696f583f&hm=9f18f91dfbbc4e77f9fa384f94bf03cdd1242ae2f8a301622ee55e94d99746d1&"
+  },
+  {
+    "id": "lucien_moreau",
+    "nome": "Lucien Moreau 🇫🇷",
+    "idade": "43",
+    "bio": "“Empresário. Gosto de gente interessante, não perfeita.”",
+    "tags": [
+      "luxo",
+      "discreto",
+      "jogos",
+      "psicológicos",
+      "vinho"
+    ],
+    "image": "uploads/lucien_moreau-1769012357378.jpg"
+  },
+  {
+    "id": "mei_lin",
+    "nome": "Mei Lin",
+    "idade": "34",
+    "bio": "“Executiva. Não tenho tempo para indecisões.”",
+    "tags": [
+      "eficiência",
+      "metas",
+      "claras",
+      "pessoas",
+      "ambiciosas"
+    ],
+    "image": "uploads/mei_lin-1769012357399.jpg"
+  },
+  {
+    "id": "joana_pereira",
+    "nome": "Joana Pereira",
+    "idade": "24",
+    "bio": "Forte, independente, aventureira e intensa demais para pessoas fracas, se não aguenta cai fora.",
+    "tags": [
+      "armas",
+      "fogo",
+      "carros",
+      "pneus",
+      "moda"
+    ],
+    "image": "uploads/joana_pereira-1769012357347.jpg"
+  },
+  {
+    "id": "maria_silva",
+    "nome": "Maria Silva 🇧🇷",
+    "idade": "28",
+    "bio": "“Enfermeira. Gosto de cuidar, ouvir e observar. Prefiro conversas sinceras a cantadas prontas.”",
+    "tags": [
+      "café",
+      "quente",
+      "plantinhas",
+      "silêncio",
+      "confortável",
+      "séries",
+      "médicas",
+      "ajudar",
+      "pessoas"
+    ],
+    "image": "uploads/maria_silva-1769012357392.jpg"
+  },
+  {
+    "id": "anya_petrova",
+    "nome": "Anya Petrova 🇷🇺",
+    "idade": "25",
+    "bio": "“Fui convencida a criar isso. Se você não gosta de ciência ou silêncio, talvez não seja uma boa ideia.”",
+    "tags": [
+      "química",
+      "laboratório",
+      "à",
+      "noite",
+      "resolver",
+      "problemas",
+      "difíceis",
+      "chá",
+      "forte",
+      "lógica"
+    ],
+    "image": "https://cdn.discordapp.com/ephemeral-attachments/1462796791517806813/1463421632847675575/a26fa7966f2e9b806a8b2248a0c74639.jpg?ex=6971c51a&is=6970739a&hm=cfe8a178a8d7cfa184c4988213b26d46a4faab7967f3cd71dcc2e56f50dcd3db&"
+  },
+  {
+    "id": "leon_christoph_korte",
+    "nome": "🇩🇪Leon Christoph Korte 🇺🇸",
+    "idade": "23",
+    "bio": "“Médico. Cirurgião. Sarcástico na medida certa. Prometo não falar de trabalho… muito.”",
+    "tags": [
+      "humor",
+      "ácido",
+      "desafios",
+      "intelectuais",
+      "música",
+      "enquanto",
+      "trabalha",
+      "adrenalina",
+      "segredos",
+      "bem",
+      "guardados"
+    ],
+    "image": "uploads/leon_christoph_korte-1769012357354.png"
+  },
+  {
+    "id": "scarlett_dubois",
+    "nome": "Scarlett Dubois",
+    "idade": "25",
+    "bio": "“Elegância não é aparência, é presença. O resto é conversa.”",
+    "tags": [
+      "vinhos",
+      "caros",
+      "dança",
+      "lenta",
+      "hotéis",
+      "luxuosos",
+      "conversas",
+      "profundas",
+      "pessoas",
+      "interessantes"
+    ],
+    "image": "uploads/scarlett_dubois-1769012357420.jpg"
+  },
+  {
+    "id": "amina_hadi",
+    "nome": "Amina Hadi 🇸🇩",
+    "idade": "22",
+    "bio": "“Se eu te adotar, é pra vida toda. Gosto de lealdade, corrida noturna e pessoas que sabem trabalhar em equipe.”",
+    "tags": [
+      "treinos",
+      "ao",
+      "ar",
+      "livre",
+      "cheiro",
+      "de",
+      "chuva",
+      "missões",
+      "em",
+      "grupo",
+      "silêncio",
+      "confortável",
+      "cães",
+      "(óbvio)."
+    ],
+    "image": "uploads/amina_hadi-1769012357316.png"
+  },
+  {
+    "id": "alessandra_moretti",
+    "nome": "Alessandra Moretti 🇮🇹",
+    "idade": "17",
+    "bio": "“Sim, minha voz quebra vidros. Não, não vou gritar por qualquer coisa… só se merecer.”",
+    "tags": [
+      "música",
+      "alta",
+      "arquitetura",
+      "antiga",
+      "sarcasmo",
+      "testes",
+      "de",
+      "limite",
+      "pessoas",
+      "que",
+      "não",
+      "subestimam",
+      "ela."
+    ],
+    "image": "uploads/alessandra_moretti-1769012357300.png"
+  },
+  {
+    "id": "riley_grease_matthews",
+    "nome": "Riley \"Grease\" Matthews 🇺🇸",
+    "idade": "24",
+    "bio": "“Já apanhei muito da vida. Agora ela é que apanha de volta.”",
+    "tags": [
+      "motores",
+      "oficinas",
+      "lutas",
+      "improvisadas",
+      "gente",
+      "direta",
+      "silêncio",
+      "depois",
+      "do",
+      "caos."
+    ],
+    "image": "uploads/riley_grease_matthews-1769012357416.png"
+  },
+  {
+    "id": "alex_petrov",
+    "nome": "Alex Petrov🇷🇺",
+    "idade": "27",
+    "bio": "“Se quebrou, eu conserto. Se explodiu… eu aviso que não foi de propósito.”",
+    "tags": [
+      "engrenagens",
+      "café",
+      "forte",
+      "projetos",
+      "malucos",
+      "desafios",
+      "técnicos",
+      "gente",
+      "paciente."
+    ],
+    "image": "uploads/alex_petrov-1769012357313.jpg"
+  },
+  {
+    "id": "maya_chen",
+    "nome": "Maya Chen 🇨🇳",
+    "idade": "20",
+    "bio": "“Não sou boa com pessoas. Sou excelente com sistemas.”",
+    "tags": [
+      "ia",
+      "noites",
+      "em",
+      "claro",
+      "códigos",
+      "limpos",
+      "filmes",
+      "sem",
+      "romance",
+      "mensagens",
+      "objetivas"
+    ],
+    "image": "uploads/maya_chen-1769012357396.jpg"
+  },
+  {
+    "id": "hadi_abd_el_karim_dino_hunter99",
+    "nome": "Hadi Abd el-Karim 🇸🇩 (Dino_hunter99)",
+    "idade": "22",
+    "bio": "“Posso arrumar seu celular… ou controlar ele inteiro. Depende da confiança.”",
+    "tags": [
+      "tecnologia",
+      "antiga",
+      "drones",
+      "teorias",
+      "conspiratórias",
+      "ajudar",
+      "amigos",
+      "curiosidade",
+      "proibida."
+    ],
+    "image": "uploads/hadi_abd_el_karim_dino_hunter99-1769012357341.png"
+  },
+  {
+    "id": "lilith_nox_seth_umbra",
+    "nome": "Lilith Nox & Seth Umbra",
+    "idade": "20 & 20",
+    "bio": "Procuramos pessoas curiosas… ou casais que não tenham medo do escuro. “Somos um pacote. Dois corpos, uma conexão intensa e noites que não se esquecem fácil.\nPreferimos encontros fora do comum: ar frio, céu escuro, silêncio quebrado por passos…\nSe você gosta de experiências diferentes, talvez a gente combine.\nSe não gosta… melhor deslizar.”",
+    "tags": [
+      "pessoas",
+      "intensas",
+      "curiosas",
+      "ar",
+      "livre",
+      "boa",
+      "comida",
+      "lugares",
+      "isolados"
+    ],
+    "image": "uploads/lilith_nox_seth_umbra-1769012357358.jpg"
+  },
+  {
+    "id": "teste",
+    "nome": "Teste",
+    "idade": "21",
+    "bio": "12",
+    "tags": [],
+    "image": "uploads/images_1-1769004379465.jpg"
+  },
+  {
+    "id": "shani_chikere",
+    "nome": "Shani Chikere",
+    "idade": "38",
+    "bio": "Uma professora procurando jovens alunos para dar \"aulas particulares\"",
+    "tags": [
+      "jovens",
+      "doces",
+      "exercícios",
+      "dominância"
+    ],
+    "image": "uploads/1417c46cc9dcc494f6432d26327be94f-1769228219420.jpg",
+    "rating": 4,
+    "ratingReason": "Achei que era só"
+  },
+  {
+    "id": "irma_decreto",
+    "nome": "Irmã  Decreto",
+    "idade": "25",
+    "bio": "Gosto de pessoas inteligentes, intensas, que sejam leais, gostem de animais, mas que também tenham presença, perigo e saibam comandar. Também venha conhecer a Rosa Negra, será bem vindo",
+    "tags": [
+      "tecnologia",
+      "religião",
+      "autoridade",
+      "negócios",
+      "pessoas",
+      "intensas"
+    ],
+    "image": "uploads/image_18-1769231112604.png",
+    "rating": 3,
+    "ratingReason": "Segundo compilado de relatos ela pode ser bem assustadora quando está intensa"
+  },
+  {
+    "id": "sargento_irina_volkova",
+    "nome": "Sargento Irina Volkova 🇷🇺",
+    "idade": "32",
+    "bio": "Agente Gost. \"Ordens são claras. Sentimentos não\"",
+    "tags": [
+      "treino",
+      "pesado",
+      "armas",
+      "táticas",
+      "silêncio"
+    ],
+    "image": "uploads/b143052026ad6ad19a6dbfba77296044-1769693641572.jpg",
+    "rating": 2,
+    "ratingReason": "Fria, direta e letal"
+  },
+  {
+    "id": "viktoria_velvet_blade_orlov",
+    "nome": "Viktoria \"Velvet Blade\" Orlov 🇷🇺",
+    "idade": "25",
+    "bio": "Salto alto não me impede de quebrar ossos",
+    "tags": [
+      "moda",
+      "alternativa",
+      "artes",
+      "marciais",
+      "maquiagem",
+      "combate"
+    ],
+    "image": "uploads/f75b4fec2a2846b46e8cbc6f64fcc43d-1769693974822.jpg",
+    "rating": 4,
+    "ratingReason": "Extremamente confiante e luta vestido de mulher. Encontro no mínimo inusitado"
+  },
+  {
+    "id": "aiko_hoshino",
+    "nome": "Aiko Hoshino 🇯🇵",
+    "idade": "21",
+    "bio": "Performer. Frágil é só a aparência.",
+    "tags": [
+      "roupas",
+      "androginas",
+      "dança",
+      "parkour",
+      "lâminas"
+    ],
+    "image": "uploads/b0ddb995381fb01b67eb1bfd1ae8032c-1769694127546.jpg",
+    "rating": 4,
+    "ratingReason": "Femboy fofinho e que confia fácil nas pessoas. E tem aquele sorriso."
+  },
+  {
+    "id": "mikhail_snow_doll_volkov",
+    "nome": "Mikhail \"Snow Doll\" Volkov 🇧🇾",
+    "idade": "24",
+    "bio": "Se você me subestimar, já perdeu",
+    "tags": [
+      "estética",
+      "delicada",
+      "armas",
+      "brancas",
+      "luta"
+    ],
+    "image": "uploads/131ef524e945c22bddce344cad17e7f9_1-1769694396208.jpg",
+    "rating": 3,
+    "ratingReason": "Femboy frio, competitivo e silencioso"
+  },
+  {
+    "id": "iris_luna_popov",
+    "nome": "Iris & Luna Popov 🇺🇦",
+    "idade": "25",
+    "bio": "Você rir...até perceber que é sério",
+    "tags": [
+      "palhaçadas",
+      "explosivos",
+      "acrobacias"
+    ],
+    "image": "uploads/0a663a9494fdebd81f3298427913846c-1769694591903.jpg",
+    "rating": 4,
+    "ratingReason": "Gêmeas palhaças inseparáveis. 2 pelo preço de uma."
+  },
+  {
+    "id": "helga_hexa_brandt",
+    "nome": "Helga \"Hexa\" Brandt 🇩🇪",
+    "idade": "29",
+    "bio": "Seis braços, seus jeitos de vencer",
+    "tags": [
+      "combate",
+      "próteses",
+      "avançadas",
+      "arenas",
+      "ilegais"
+    ],
+    "image": "uploads/50868b3bb289ffcb322de11eeaed5517-1769694701447.jpg",
+    "rating": 4,
+    "ratingReason": "Linda, mas os braços tem muita força. Muita força mesmo"
+  },
+  {
+    "id": "nyx_calder",
+    "nome": "Nyx Calder 🇨🇦",
+    "idade": "22",
+    "bio": "Se é ilegal, dá audiência",
+    "tags": [
+      "zonas",
+      "proibidas",
+      "supervilões",
+      "drones",
+      "caos",
+      "ao",
+      "vivo"
+    ],
+    "image": "uploads/1e02deb6b3ccaa939abd94632a9d679c-1769694825136.jpg",
+    "rating": 2,
+    "ratingReason": "Filma crimes e batalhas. Milhões de seguidores, inimigos demais"
+  },
+  {
+    "id": "adolf_kaiser_sylvigmillenia",
+    "nome": "Adolf Kaiser Sylvigmillenia",
+    "idade": "Não importa",
+    "bio": "Não procuro alguém para caminhar ao meu lado. Procuro quem saiba ajoelhar...ou criar um reino comigo.",
+    "tags": [
+      "estratégia",
+      "lealdade",
+      "absoluta",
+      "jogos",
+      "mentais",
+      "silêncio",
+      "antes",
+      "do",
+      "caos",
+      "pessoas",
+      "que",
+      "entendam",
+      "seu",
+      "lugar"
+    ],
+    "image": "uploads/8408be1e8c28f10a125fdc0453c31f28_1-1769708294064.jpg",
+    "rating": 4,
+    "ratingReason": "Dominador Extremo, manipulador, não aceita rejeição. Match pode mudar sua vida, ou acabar com ela."
+  },
+  {
+    "id": "johan_kruger",
+    "nome": "Johan Kruger",
+    "idade": "28",
+    "bio": "Se você gosta de luz, talvez eu não seja para você. Se gosta do perigo, então fique.",
+    "tags": [
+      "conversas",
+      "íntimas",
+      "no",
+      "escuro",
+      "controle",
+      "psicólogo",
+      "charme",
+      "obediência",
+      "voluntária",
+      "noites",
+      "sem",
+      "testemunhas"
+    ],
+    "image": "uploads/ae5953e1d7683d9c611ee8664eb8465c-1769708440597.jpg",
+    "rating": 3,
+    "ratingReason": "Cruel, persuasivo, envolvente demais. Costuma deixar marcas emocionais permanentes"
+  },
+  {
+    "id": "samira_al_rashid",
+    "nome": "Samira Al-Rashid",
+    "idade": "31",
+    "bio": "Se as luzes ainda estão acesas, é porque eu deixei",
+    "tags": [
+      "arquitetura",
+      "controle",
+      "de",
+      "sistemas",
+      "café",
+      "forte",
+      "noites",
+      "silenciosas",
+      "pessoas",
+      "que",
+      "não",
+      "entram",
+      "em",
+      "pânico"
+    ],
+    "image": "uploads/37d493b28a24b07eb532902e3e0c50d8-1769708609734.jpg",
+    "rating": 3,
+    "ratingReason": "Controladora, workaholic, guarda segredos críticos demais para confiar"
+  },
+  {
+    "id": "marta_kowalska",
+    "nome": "Marta Kowalska",
+    "idade": "48",
+    "bio": "Beba, fale pouco e pague em dia. O Resto eu resolvo",
+    "tags": [
+      "uísque",
+      "acordos",
+      "informais",
+      "música",
+      "baixa",
+      "observar",
+      "pessoas",
+      "informações",
+      "valiosas"
+    ],
+    "image": "uploads/143787a42eb4f524510edfae2677570b-1769743226413.jpg",
+    "rating": 4,
+    "ratingReason": "Sempre sabe mais do que demonstra. Jamais fica em dívida"
   }
 ]

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Painel NPCs - RPG Tinder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 2rem;
+        background: #0f172a;
+        color: #f8fafc;
+      }
+
+      h1 {
+        margin-bottom: 0.5rem;
+      }
+
+      .card {
+        background: #1e293b;
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+      }
+
+      label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 0.65rem 0.75rem;
+        border-radius: 8px;
+        border: none;
+        margin-bottom: 1rem;
+        background: #0f172a;
+        color: #f8fafc;
+      }
+
+      input[type='file'] {
+        padding: 0.25rem;
+        background: transparent;
+        border: 1px dashed #475569;
+      }
+
+      button {
+        background: #38bdf8;
+        color: #0f172a;
+        font-weight: 700;
+        border: none;
+        border-radius: 8px;
+        padding: 0.75rem 1.5rem;
+        cursor: pointer;
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+      }
+
+      button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(56, 189, 248, 0.3);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 1rem;
+      }
+
+      th,
+      td {
+        padding: 0.75rem 0.5rem;
+        text-align: left;
+        border-bottom: 1px solid #334155;
+      }
+
+      th {
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        letter-spacing: 0.08em;
+        color: #94a3b8;
+      }
+
+      .status {
+        margin-top: 1rem;
+        font-weight: 600;
+      }
+
+      .status.error {
+        color: #f87171;
+      }
+
+      .status.success {
+        color: #34d399;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Painel de NPCs</h1>
+    <p>Use este painel local para cadastrar NPCs rapidamente no arquivo do bot.</p>
+
+    <section class="card">
+      <h2>Novo NPC</h2>
+      <form id="npc-form" enctype="multipart/form-data">
+        <label for="nome">Nome*</label>
+        <input id="nome" name="nome" required />
+
+        <label for="idade">Idade*</label>
+        <input id="idade" name="idade" required />
+
+        <label for="descricao">Descrição/Bio*</label>
+        <textarea id="descricao" name="descricao" rows="4" required></textarea>
+
+        <label for="gostos">Gostos/Tags (separados por vírgula ou espaço)</label>
+        <input id="gostos" name="gostos" placeholder="ex: hacker, fria, leal" />
+
+        <label for="imagemUrl">Imagem (URL opcional)</label>
+        <input id="imagemUrl" name="imagemUrl" placeholder="https://..." />
+
+        <label for="imagemArquivo">ou Envie uma imagem (jpg/png)</label>
+        <input id="imagemArquivo" name="imagemArquivo" type="file" accept="image/*" />
+
+        <button type="submit">Salvar NPC</button>
+        <div id="form-status" class="status"></div>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>NPCs cadastrados</h2>
+      <div id="npcs-container">
+        <p>Carregando...</p>
+      </div>
+    </section>
+
+    <script>
+      const npcForm = document.getElementById('npc-form');
+      const statusBox = document.getElementById('form-status');
+      const npcsContainer = document.getElementById('npcs-container');
+
+      async function loadNpcs() {
+        npcsContainer.innerHTML = '<p>Carregando...</p>';
+        try {
+          const response = await fetch('/api/npcs');
+          if (!response.ok) throw new Error('Falha ao carregar NPCs');
+          const data = await response.json();
+
+          if (!data.length) {
+            npcsContainer.innerHTML = '<p>Nenhum NPC cadastrado ainda.</p>';
+            return;
+          }
+
+          const rows = data
+            .sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'))
+            .map(npc => `<tr><td>${npc.nome}</td><td><code>${npc.id}</code></td></tr>`) 
+            .join('');
+
+          npcsContainer.innerHTML = `
+            <table>
+              <thead>
+                <tr><th>Nome</th><th>ID</th></tr>
+              </thead>
+              <tbody>${rows}</tbody>
+            </table>
+          `;
+        } catch (err) {
+          npcsContainer.innerHTML = `<p class="status error">${err.message}</p>`;
+        }
+      }
+
+      npcForm.addEventListener('submit', async event => {
+        event.preventDefault();
+        statusBox.textContent = 'Enviando...';
+        statusBox.className = 'status';
+
+        try {
+          const formData = new FormData(npcForm);
+          const response = await fetch('/api/npcs', {
+            method: 'POST',
+            body: formData,
+          });
+
+          const result = await response.json();
+          if (!response.ok) {
+            throw new Error(result.error || 'Erro ao salvar NPC');
+          }
+
+          statusBox.textContent = 'NPC salvo com sucesso!';
+          statusBox.className = 'status success';
+          npcForm.reset();
+          loadNpcs();
+        } catch (err) {
+          statusBox.textContent = err.message;
+          statusBox.className = 'status error';
+        }
+      });
+
+      loadNpcs();
+    </script>
+  </body>
+</html>
